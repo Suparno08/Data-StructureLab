@@ -1,6 +1,6 @@
 📘 Data Structure Lab Repository
 
-👨‍💻 Maintained by: Suparno
+👨‍💻 Maintained by: $up@rn0
 🎓 Course: Data Structure Lab
 🏫 University: JIS University
 📚 Semester: 2nd Semester
