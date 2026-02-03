@@ -1,5 +1,5 @@
-/*Assume that there is an array Marks [], such that the index of the
-array specifies the roll number of the student and the value of a
+/*Assume that there is an marksay Marks [], such that the index of the
+marksay specifies the roll number of the student and the value of a
 particular element denotes the marks obtained by the student. For
 example, if it is given Marks [4] =78, then the student whose roll
 number is 4 has obtained 78 marks in the examination. Apply the
@@ -17,16 +17,16 @@ int main(){
     int totalStudent,count=0;
     printf("Enter total number of students:\n");
     scanf("%d",&totalStudent);
-    int arr[totalStudent];
+    int Marks[totalStudent];
     printf("Enter marks roll wise\n");
     for (int i = 0; i < totalStudent; i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&Marks[i]);
     }
     
     for (int i = 0; i < totalStudent; i++)
     {
-        if(arr[i] >=80 && arr[i] <= 100){
+        if(Marks[i] >=80 && Marks[i] <= 100){
             count++;
         }
        
@@ -35,9 +35,9 @@ int main(){
     printf("Total number of studets who got 80 or more marks is :%d\n",count);
     for (int i = 0; i < totalStudent; i++)
     {
-         if (arr[i] >= 80 && arr[i] <= 100)
+         if (Marks[i] >= 80 && Marks[i] <= 100)
         {
-            printf("Roll no. %d got %d\n",i+1,arr[i]);
+            printf("Roll no. %d got %d\n",i+1,Marks[i]);
         }
     }
     
