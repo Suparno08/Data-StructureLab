@@ -6,7 +6,7 @@ Coded by: $up@rn0
  */
 #include<stdio.h>
 int main(){
-    int arr[10], index;
+    int arr[10], index = 0;
     printf("Enter array elements below\n");
     for (int i = 0; i < 10; i++)
     {
@@ -24,4 +24,5 @@ int main(){
     printf("The smallest array index is %d",index);
     
     return 0;
+
 }
