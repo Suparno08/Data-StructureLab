@@ -7,7 +7,7 @@ struct Node {
     struct Node* next;
 };
 
-// Function to traverse and display
+
 void traverse(struct Node* head) {
     struct Node* temp = head;
 
